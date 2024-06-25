@@ -1,0 +1,330 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto" sans-serif;
+
+}
+
+
+/* NAVBAR................................................................ */
+.container-navbar {
+    background-color: rgb(48, 46, 46);
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    /* background-color: rgb(40, 126, 126); */
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+
+/* GNEX TOPUP */
+.brand {
+display: flex;
+flex-direction: row;
+font-size: 1.5em;
+padding: 15px;
+text-transform: capitalize;
+}
+
+.firstname {
+    color: white;
+    font-weight: 700;
+}
+
+.secondname {
+    font-weight: 400;
+    color: crimson;
+    padding: 4px;
+}
+
+/* GNEX TOPUP */
+
+
+
+
+
+
+
+.ul-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > .ul-navbar > li {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.ul-navbar > li {
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+.ul-navbar > li > a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.a-buy-now {
+    /* background-color: brown; */
+    display: flex;
+    width: 100px;
+}
+
+.ul-navbar > li > a:hover {
+    color: crimson;
+    transition: .3s ease-in-out;
+}
+
+.a-menu {
+    background-color: crimson;
+    padding: 15px;
+    color:white;
+    border-radius: 10px;
+}
+
+.a-menu:hover {
+    color: white !important;
+}
+
+
+.ul-navbar > li > img {
+width: 80px;
+height: 80px;
+border-radius: 80px;
+}
+
+.ul-navbar > li > img:hover {
+    width: 95px;
+    height: 95px;
+    border-radius: 95px;
+    transition: .3s ease-in-out;
+}
+
+
+
+
+
+/* NAVBAR END............................................................. */
+
+
+
+
+
+
+
+
+/* CONTENT................................................................ */
+.container-content {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 60vh;
+
+}
+
+.ul-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:white; */
+    height: 100%;
+}
+
+.ul-content > li {
+    width: 400px;
+    height: 400px;
+    background-color: crimson;
+    margin: 10px;
+    list-style-type: none;
+    border-radius: 20px;
+}
+
+.ul-content > li > a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ul-content > li > a > img {
+    width: 300px;
+    height: 300px;
+}
+
+.p-ff {
+    font: bold 16px sans-serif;
+    text-transform: capitalize;
+    margin: 20px 0px 0px 130px;
+}
+
+.p-ml {
+    font: bold 16px sans-serif;
+    text-transform: capitalize;
+    margin: 20px 0px 0px 120px;
+}
+
+.img-ff:hover {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    transition: .3s ease-in-out;
+}
+
+.img-ml:hover {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    transition: .3s ease-in-out;
+}
+
+
+/* LIST FF ........................................................*/
+
+.ul-content-ff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(26, 20, 20);
+    height: 250px;
+}
+
+.ul-content-ff > li {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    margin: 10px;
+    list-style-type: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.ul-content-ff > li > h1 {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    text-transform: capitalize;
+
+}
+
+.ul-content-ff > li > p {
+    color: white;
+
+
+}
+
+
+.div-tng-ff {
+    /* background-color: rgb(99, 104, 104); */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tng-ff {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+/* CONTENT END............................................................ */
+
+
+/* FOOTER................................................................. */
+.footer {
+    background-color: rgb(48, 46, 46);
+    width: 100%;
+    height: 30vh;
+    box-sizing: border-box;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+    display: flex;
+
+}
+
+.footer-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.footer > div > div > img {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.payment-img {
+    width: 500;
+    vertical-align: middle;
+}
+
+.footer-left > h3 {
+    color: white;
+    margin: 0;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.footer-left > p {
+    color: rgb(192, 190, 190);
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.footer > .footer-right {
+    display:inline-block;
+    justify-content: center;
+    
+}
+
+.footer-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-top: 90px;
+}
+
+.footer-right > p {
+    color: white;
+    padding: 15px;
+}
+
+
+
+
+
+
+/* FOOTER................................................................. */
